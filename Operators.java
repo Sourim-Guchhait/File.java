@@ -1,8 +1,8 @@
-class Operators{
+// class Operators{
 
-  public static void main(String[] args)
-    
-{
+//   public static void main(String[] args)
+
+// {
 //     int x=10;
 //     int y=50;
 
@@ -121,7 +121,7 @@ class Operators{
     //     System.out.println(c); //14
     //     System.out.println(b);  //3
     //     System.out.println(a);  //3
-    }
+    // }
 
    
     
@@ -182,7 +182,8 @@ class Operators{
 // c=c++ + ++c;
 // System.out.println(c);
 
-}
+// }
+
 
 
 
