@@ -1,4 +1,4 @@
-//Example of a constructor...
+// // Example of a constructor...
 // Constructor name should be same name as a classname .....
 // class Nonstatic {          //also the class name and the file name should be same
 //     Nonstatic()
@@ -8,24 +8,49 @@
 
 //     public static void main(String[] args) {
 //         System.out.println("i am main");
-//         new Nonstatic();
+//         Nonstatic n=new Nonstatic();
 //     }
 //     //output as ' i am main'
 //             //  'i am a constructor'
 // }
 
-//if constructor name is different with the class name then no output will be printed jvm will treat the constructor as a regular method.
-class Nonstatic {
-    CustomConstructor() {   // This is a method, not a constructor
-        System.out.println("i am constructor"); // CTE cause class name and constructor not same
+// exmaple of the constructor
+
+
+
+class Demo{
+
+    static int sourim=20;
+    
+}
+
+class Constructor{
+
+    Constructor(int a ){
+        System.out.println("sourim " + a ) ;
+
     }
 
     public static void main(String[] args) {
-        System.out.println("i am main");
-        new Nonstatic();  // This creates an object of the Nonstatic class
+        Constructor c = new Constructor(20);
+        // d.Demonstrate();
+        
+        System.out.println(Demo.sourim);
     }
-    // output as 'i am main'
 }
+
+//if constructor name is different with the class name then no output will be printed jvm will treat the constructor as a regular method.
+// class Nonstatic {
+//     CustomConstructor() {   // This is a method, not a constructor
+//         System.out.println("i am constructor"); // CTE cause class name and constructor not same
+//     }
+
+//     public static void main(String[] args) {
+//         System.out.println("i am main");
+//         new Nonstatic();  // This creates an object of the Nonstatic class
+//     }
+    // output as 'i am main'
+// }
 
 // WAP to print non- static initializers execute first then the cnstrictor will be executed .
 // class Constructor {

@@ -51,7 +51,7 @@ class Thiskeyword
  {
     int id;
     String name;
-    static String schoolName="parkcircus";
+    String schoolName="parkcircus";
     Thiskeyword(int id,String name)
     {
         this.id=id;
